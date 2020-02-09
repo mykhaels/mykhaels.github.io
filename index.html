@@ -5,10 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to Michael Website</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/progress-bar.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        
+        <div class="introduction">
+            <span>Hello this is</span>
+            <h1>
+                Michael Vinci
+            </h1>
+            <span>I am a developer</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium labore aliquid repellat facilis quas dolores culpa officia </p>
+        </div>
     </header>
+    <div class="container">
+        <h1>Skills</h1>
+        <section class="card-wrapper">
+            <div class="card">
+                <div class="face top-part">
+                    <figure class="content">
+                        <img src="images/code.svg">
+                        <figcaption>Java Developer</figcaption>
+                    </figure>
+                </div>
+                <div class="face bottom-part">
+                    <div class="content">
+                        <p>Working to create desktop - website - and automation processing job using java</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="face top-part">
+                    <figure class="content">
+                        <img src="images/web-developer.svg">
+                        <figcaption>Web Developer</figcaption>
+                    </figure>
+                </div>
+                <div class="face bottom-part">
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint atque enim aliquam ab </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="face top-part">
+                    <figure class="content">
+                        <img src="images/mobile-development.svg">
+                        <figcaption>Mobile Developer</figcaption>
+                    </figure>
+                </div>
+                <div class="face bottom-part">
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint atque enim aliquam ab </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <sectio class="skills-wrapper">
+            <ul>
+                <li>
+                    <p style="width:80%" data-value="80">JAVA</p>
+                    <progress value="80" max="100" class="skill"> 
+                        <div class="progress-bar">
+                            <span style="width: 80%">80%</span>
+                        </div>
+                    </progress>
+                </li>
+                <li>
+                    <p style="width:70%" data-value="70">POSTGRESQL</p>
+                    <progress value="70" max="100" class="skill"> 
+                        <div class="progress-bar">
+                            <span style="width: 70%">70%</span>
+                        </div>
+                    </progress>
+                </li>
+                <li>
+                    <p style="width:70%" data-value="80">HTML</p>
+                    <progress value="70" max="100" class="skill"> 
+                        <div class="progress-bar">
+                            <span style="width: 70%">70%</span>
+                        </div>
+                    </progress>
+                </li>
+                <li>
+                    <p style="width:60%" data-value="60">CSS</p>
+                    <progress value="60" max="100" class="skill"> 
+                        <div class="progress-bar">
+                            <span style="width: 60%">60%</span>
+                        </div>
+                    </progress>
+                </li>
+                <li>
+                    <p style="width:30%" data-value="80">MOBILE DEVELOPER</p>
+                    <progress value="30" max="100" class="skill"> 
+                        <div class="progress-bar">
+                            <span style="width: 30%">30%</span>
+                        </div>
+                    </progress>
+                </li>
+            </ul>
+            
+        </section>
+    </div>
+    
+    <footer>
+
+    </footer>
 </body>
 </html>
